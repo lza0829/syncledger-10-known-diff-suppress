@@ -1,0 +1,5 @@
+[
+  {"txn_id": "TXN-001", "amount": 199.00, "currency": "CNY", "booked_at": "2026-11-12T09:00:30Z"},
+  {"txn_id": "TXN-002", "amount": 50.00, "currency": "CNY", "booked_at": "2026-11-12T09:05:30Z"},
+  {"txn_id": "TXN-004", "amount": 12.00, "currency": "CNY", "booked_at": "2026-11-12T09:20:00Z"}
+]

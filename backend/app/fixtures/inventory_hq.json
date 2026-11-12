@@ -1,0 +1,6 @@
+[
+  {"sku_id": "SKU-100", "store_id": "S01", "qty": 120, "unit": "pcs", "updated_at": "2026-11-12T08:00:00Z"},
+  {"sku_id": "SKU-100", "store_id": "S02", "qty": 80, "unit": "pcs", "updated_at": "2026-11-12T08:00:00Z"},
+  {"sku_id": "SKU-200", "store_id": "S01", "qty": 45, "unit": "pcs", "updated_at": "2026-11-12T08:05:00Z"},
+  {"sku_id": "SKU-300", "store_id": "S01", "qty": 10, "unit": "pcs", "updated_at": "2026-11-12T08:10:00Z"}
+]
