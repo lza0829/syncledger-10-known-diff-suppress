@@ -7,6 +7,7 @@
       <router-link to="/run">对账台</router-link>
       <router-link to="/diffs">差异清单</router-link>
       <router-link to="/dispositions">差异处置</router-link>
+      <router-link to="/suppressions">已知差异抑制</router-link>
       <router-link to="/contracts">端契约</router-link>
       <router-link to="/audit">审计摘要</router-link>
       <router-link to="/settings">设置</router-link>

@@ -7,6 +7,7 @@ import Dispositions from './pages/Dispositions.vue'
 import Contracts from './pages/Contracts.vue'
 import Audit from './pages/Audit.vue'
 import Settings from './pages/Settings.vue'
+import Suppressions from './pages/Suppressions.vue'
 
 export default createRouter({
   history: createWebHistory(),
@@ -19,5 +20,6 @@ export default createRouter({
     { path: '/contracts', component: Contracts },
     { path: '/audit', component: Audit },
     { path: '/settings', component: Settings },
+    { path: '/suppressions', component: Suppressions },
   ],
 })

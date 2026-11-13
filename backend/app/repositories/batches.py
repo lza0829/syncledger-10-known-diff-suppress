@@ -64,8 +64,9 @@ def insert_batch(
         """
         INSERT INTO reconcile_batches(
             batch_no, pair_id, status, left_rows, right_rows, matched,
-            left_only, right_only, field_mismatch, diff_total, note, created_at
-        ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?)
+            left_only, right_only, field_mismatch, diff_total, note, created_at,
+            suppressed_count, reactivated_count
+        ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)
         """,
         (
             batch_no,
@@ -80,6 +81,8 @@ def insert_batch(
             counts["diff_total"],
             note,
             created_at,
+            counts.get("suppressed", 0),
+            counts.get("reactivated", 0),
         ),
     )
     return int(cur.lastrowid)
